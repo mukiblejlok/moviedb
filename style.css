@@ -1,0 +1,394 @@
+/*
+Style do listy filmów
+data modyfikacji:
+2007-12-28
+*/
+td.top_logowanie{
+background-color:#0099CC;
+color:#FFCC00;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:right;
+}
+
+div.alert{
+width:100%;
+background: #CC0099;
+color: #FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:center;
+}
+
+div.info{
+width:100%;
+background:#33FF00;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+}
+
+p.zwykly{
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+color:#000000;
+}
+
+div.stopka{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+/*********** KOMÓRKI TABEL ********************/
+
+td.menu_naglowek{
+color: #FFFFFF;
+font-weight:bold;
+background-color:#339900;
+text-align:center;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+}
+
+td.menu{
+background-color: #CCCCCC;
+text-align:center;
+}
+
+td.top{
+color:#000000;
+background-color:#F3DF52;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+font-weight: bold;
+}
+
+td.naglowek{
+background-color:#777777;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:bold;
+color: #FFFF00;
+}
+
+td.down{
+background-color:#777777;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+font-weight:bold;
+color: #FFFF00;
+}
+.aktywny{
+color:#000000;
+}
+
+.wiersz_tytul{
+width:320px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:left;
+}
+
+.wiersz_rezyser{
+width:110px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:left;
+color:#000000;
+}
+
+.wiersz_rok{
+width:30px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:center;
+color:#000000;
+}
+
+.wiersz_kraj{
+width:50px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align:center;
+color:#000000;
+}
+
+.wiersz_nosnik{
+width:80px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align: center;
+color:#000000;
+}
+
+.wiersz_dost{
+width:50px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align: center;
+color:#000000;
+}
+
+.wiersz_ndost{
+width:50px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+text-align: center;
+color: #FF0000;
+}
+
+.wiersz_data{
+width:50px;
+background-color:#DDDDDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align: center;
+color: #FF0000;
+}
+
+.wiersz_edytuj{
+width:30px;
+background-color: #009900;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-align: center;
+color: #FFFFFF;
+}
+
+.wiersz_usun{
+width:30px;
+background-color: #FF0000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-align: center;
+color: #000000;
+}
+
+
+/***************LINKI********************/
+a.tytul{
+color:#000000;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+a.tytul:hover{
+color:#000000;
+text-decoration: underline;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+a.tytul:visited{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+a.tytul:active{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+a.down{
+color:#FFFF00;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+a.down:hover{
+color:#FFFF00;
+text-decoration:underline;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+a.down:visited{
+color:#FFFF00;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+a.down:active{
+color:#FFFF00;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+a.menu{
+color:#000000;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+a.menu:hover{
+color:#000000;
+text-decoration: underline;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+a.menu:active{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+a.menu:visited{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+;
+}
+
+a.info{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FF0000;
+text-decoration:none;
+}
+
+a.info:hover{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FF0000;
+text-decoration: underline;
+}
+
+a.info:visited{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FF0000;
+}
+
+a.info{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FF0000;
+}
+
+
+/******** PODSTRONY ***********/
+td.d_naglowek{
+color:#000000;
+background-color:#CCCCCC;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:center;
+font-weight:bold;
+}
+
+td.d_opis{
+color:#000000;
+background-color:#CCCCCC;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:right;
+}
+
+.d_okno{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+background-color: #EEEEEE;
+border:#000000;
+}
+
+td.d_okno2{
+border:#FF0000;
+text-align:left;
+}
+
+.przycisk{
+background-color: #666666;
+color:#FFFFFF;
+border:#FF0000;
+cursor: pointer;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+/********* WYSZUKIWANIE *********/
+
+td.szuk_top{
+background-color: #33CC00;
+color: #000000;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+
+td.szuk_tytul{
+width:250;
+background-color: #CCCCCC;
+color: #000000;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+td.szuk_rezyser{
+width:100;
+background-color: #CCCCCC;
+color: #000000;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+td.szuk_rok{
+width:30;
+background-color: #CCCCCC;
+color: #000000;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+td.szuk_nosnik{
+width:70;
+background-color: #CCCCCC;
+color: #000000;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+td.szuk_dost{
+width:48;
+background-color: #CCCCCC;
+color: #000000;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+td.szuk_ndost{
+width:48;
+background-color: #CCCCCC;
+color: #FF0000;
+text-align:center;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+font-weight:bold;
+}
+

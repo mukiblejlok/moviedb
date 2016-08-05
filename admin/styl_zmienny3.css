@@ -1,0 +1,47 @@
+body{
+background-image: url(img/tlo_1.gif); 
+text-align:center;
+}
+
+div.top_logowanie{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:right;
+color:#EEE;
+width:878px;
+margin-bottom:3px;
+}
+
+div.logo{
+background-image:url(img/logo_psycho_1.jpg);
+width:878px;
+height:400px;
+position:relative;
+}
+
+div.tekst_logo{
+text-align: right;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:22px;
+color: #000000;
+padding-right:20px; 
+padding-top:100px;
+}
+
+div.stopka{
+color:#DDD;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+clear: both;
+
+}
+
+div.glowne_okno{
+display: block;
+padding-top:25px;
+padding-left:10px;
+padding-right:10px;
+width: 858px;
+background-image:url(img/go_tlo_1.gif);
+
+}

@@ -1,0 +1,550 @@
+/*
+Style do listy filmów
+data modyfikacji:
+2009-2-28
+*/
+
+.glowny_div{
+text-align:center; width:878px; margin: 0 auto; position:relative; 
+}
+
+.prawie_glowny_div{
+width:878px;
+border-width:4px 4px 6px 3px;
+border-color: #3074A7; 
+border-style:solid;
+}
+
+div.top_logowanie{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align:right;
+color:#FFFFFF;
+width:878px;
+padding-bottom:4px;
+position:relative;
+}
+
+.lewe_okno{
+width: 500px;
+float:left;
+position:relative;
+margin: 0 auto;
+text-align: justify;
+padding: 30px 10px 10px 20px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:normal;
+color:#000000;
+overflow:hidden;
+}
+
+.prawe_okno{
+margin-left: 500px;
+padding: 30px 10px 30px 20px;
+text-align:center;
+position:relative;
+}
+
+div.alert{
+position: absolute;
+left: 0px;
+top: 0px;
+width:100%;
+background: #CC0099;
+color: #FFFFFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:center;
+}
+
+div.info{
+position: absolute;
+left: 0px;
+top: 0px;
+width:100%;
+background:#33FF00;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:center;
+}
+
+/*LINKI*/
+a.link_naglowek, a.link_naglowek:visited, a.link_naglowek.active{
+color:#EEE;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+a.link_naglowek:hover{
+text-decoration:underline;
+}
+
+
+a.link, a.link:active, a.link:visited{
+color:#000000;
+text-decoration:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+a.link:hover{
+text-decoration: underline;
+}
+
+a.info, a.info:visited, a.info:active{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+color:#FF0000;
+text-decoration:none;
+}
+a.info:hover{
+text-decoration: underline;
+}
+
+a.down{
+font-size:10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000;
+text-decoration:none;
+}
+
+a.down:hover{
+text-decoration: none;
+font-size:15px;
+font-weight:bold;
+}
+
+
+/******** PODSTRONY ***********/
+td.d_opis{
+width: 120px;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+text-align:right;
+}
+
+td.d_okno{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+background-color: #EEEEEE;
+border:#000000;
+}
+
+td.d_okno2{
+width: 300px;
+border:#FF0000;
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+}
+
+.przycisk{
+background-color: #666666;
+color:#FFFFFF;
+border:#FF0000;
+cursor: pointer;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+td.edycja_osoby_l{
+width:100px;
+font-size:10px;
+text-align:right;
+padding-right:10px;
+}
+
+td.edycja_osoby_p{
+width:300px;
+}
+
+
+
+/*moja nowa wersja listy*/
+#lista_filmow_top{
+width: 395px;
+border-style:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:13px;
+background-color:#3074A7;
+padding-left:10px;
+position:relative;
+color:#FFFFFF;
+font-weight:bold;
+
+
+}
+#lista_filmow_litery{
+width: 405px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+background-color: #ACE0E6;
+text-align:center;
+font-size:13px;
+height:20px;
+color:#FF0000;
+
+}
+
+#lista_filmow_stopka{
+width: 405px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+background-color:#3074A7;
+text-align:center;
+height:18px;
+position:relative;
+color:#FFFFFF;
+}
+
+#lista_top{
+border-bottom-style:solid;
+border-bottom-width:thin;
+width:398px;
+background-color: #E2EFEF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+text-align:left;
+color:#000000;
+padding-left:7px;
+}
+#lista_top:hover{
+background-color:#FFFFFF;
+padding-left:7px;
+}
+
+a.plus_minus, a.plus_minus:visited, a.plus_minus:active{
+color:#FFFFFF;
+text-decoration:none;
+font-size:12px; 
+}
+
+a.plus_minus:hover{
+text-decoration:underline;
+}
+
+
+.detale_filmu{
+width: 400px;
+height:175px;
+/*border-style:solid;
+border-width:thin;
+border-top-style:none;*/
+background-color: #FCF8BC;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:left;
+padding-left: 5px;
+/*border-left-style: solid;
+border-left-width:thin;*/
+}
+
+.detale_rezysera{
+width: 400px;
+height:100px;
+/*border-style:solid;
+border-width:thin;
+border-top-style:none;*/
+background-color: #FCF8BC;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:left;
+padding-left: 5px;
+}
+
+.detale_kraju{
+width: 400px;
+height:90px;
+/*border-style:solid;
+border-width:thin;
+border-top-style:none;*/
+background-color: #FCF8BC;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:left;
+padding-left: 5px;
+}
+
+.detale_osoby{
+width: 400px;
+height:110px;
+/*border-style:solid;
+border-width:thin;
+border-top-style:none;*/
+background-color: #FCF8BC;
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+text-align:left;
+padding-left: 5px;
+}
+
+
+
+.zam_detale{
+position: absolute;
+right: 2px;
+top: 2px;
+font-size: 13px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000000;
+}
+
+
+span.rozwin_detale:hover{
+cursor:pointer;
+}
+span.zam_detale:hover{
+cursor:pointer;
+}
+span.detale_rez{
+font-size: 11px;
+}
+
+a.detale_link{
+text-decoration:none;
+color:#000000;
+}
+a.detale_link:hover{
+text-decoration: underline;
+color:#000000;
+}
+a.detale_link:visited{
+text-decoration:none;
+color:#000000;
+}
+a.detale_link:active{
+text-decoration:none;
+color:#000000;
+}
+
+span.panel_admina{
+position:absolute;
+right: 10px;
+bottom: 2px;
+text-align:right;
+}
+
+span.detale_nosnik{
+position:absolute;
+left: 215px;
+width:120px;
+top:2px;
+z-index:1;
+}
+
+span.detale_uprawnienia{
+position:absolute;
+left: 200px;
+top:2px;
+text-align:right;
+
+}
+
+/*Okienka*/
+.male_okno{
+text-align: center;
+border-spacing: 2px;
+width: 400px;
+border:none;
+}
+#okno_pytanie{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+color:#000000;
+}
+
+#okno_film{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#000000;
+}
+
+/*CD na DVD*/
+
+.cnd_data{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#CC0000;
+text-align:center;
+}
+.cnd_film{
+padding-left: 5px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#000000;
+}
+.cnd_reszta{
+padding-left: 10px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9px;
+color: #333333;
+}
+
+.cnd_top{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+color: #333333;
+text-align:center;
+background-color:#333333;
+color:#CCFFFF;
+}
+
+#tekst_stopka{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 8px;
+text-align:center;
+color:#000000;
+}
+
+/*Formularze*/
+input.d_okno{
+border-style:none;
+background-color: #EEEEEE;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+height:20px;
+}
+
+input.d_okno:hover{
+border-style: solid;
+border-width:thin;
+background-color: #EDEDED;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+input.d_okno:focus{
+border-style:none;
+background-color: #F8F8F8;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+select.d_okno{
+border-style:none;
+background-color: #EEEEEE;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+height:20px;
+}
+
+textarea.d_okno{
+border-style:none;
+background-color: #EEEEEE;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+textarea.d_okno:focus{
+border-style:none;
+background-color: #F8F8F8;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+/*PRAWA KOLUMNA*/
+div.prawy_okno_naglowek{
+height:22px;
+width:298px;
+background-color:#3074A7;
+color:#FFF;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+vertical-align:middle;
+border-style: solid solid none solid;
+border-width: thin;
+border-color:#000000;
+}
+
+div.prawy_okno_tresc{
+width:278px;
+border-style: none solid solid solid;
+border-width: thin;
+border-color:#000000;
+color: #000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+padding: 10px;
+text-align:justify;
+position:relative;
+}
+
+div.prawy_okno_tresc:hover{
+background-color: #DDD;
+}
+
+
+/*NEWSY*/
+
+div.news_tytul{
+border-bottom-style: groove;
+border-bottom-width:thin;
+font-size:12px;
+padding-bottom:5px;
+font-weight:bold;
+position:relative;
+}
+
+span.news_panel{
+position:absolute;
+right: 20px;
+}
+
+div.news_tresc{
+font-size:12px;
+text-indent:10px;
+}
+
+div.news_stopka{
+font-size:9px;
+text-align:right;
+font-style:italic;
+color:#333;
+}
+
+.news_dodaj_l{
+text-align:right;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+.news_dodaj_p{
+text-align:left;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+
+/*oceny*/
+.link_oceny, a.link_oceny:visited, a.link_oceny:active{
+
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+cursor:pointer;
+}
+.link_oceny:hover{
+color:#FF0000;
+cursor:pointer;
+} 
+
+
+.link_mala_ocena, a.link_mala_ocena:visited, a.link_mala_ocena:active{
+color:#000000;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+cursor:pointer;
+}
+.link_mala_ocena:hover{
+color:#FF0000;
+cursor:pointer;
+} 
+
